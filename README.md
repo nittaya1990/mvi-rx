@@ -6,8 +6,18 @@
 
 - `build.gradle`
 
+```groovy
+buildscript {
+    repositories {
+        maven { url 'https://jitpack.io' }
+    }
+}
 ```
-allprojects {
+
+- `settings.gradle`
+
+```groovy
+dependencyResolutionManagement {
     repositories {
         maven { url 'https://jitpack.io' }
     }
@@ -16,7 +26,7 @@ allprojects {
 
 - `app/build.gradle`
 
-```gradle
+```groovy
 implementation 'com.github.prongbang:mvi-rx:1.0.1'
 ```
 
