@@ -1,5 +1,7 @@
 # mvi-rx
 
+[![](https://jitpack.io/v/prongbang/mvi-rx.svg)](https://jitpack.io/#prongbang/mvi-rx)
+
 ## Setup
 
 - `build.gradle`
