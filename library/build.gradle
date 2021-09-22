@@ -4,6 +4,7 @@ plugins {
     id 'maven-publish'
 }
 
+// https://developer.android.com/studio/build/maven-publish-plugin#groovy
 afterEvaluate {
     publishing {
         publications {

@@ -27,7 +27,7 @@ dependencyResolutionManagement {
 - `app/build.gradle`
 
 ```groovy
-implementation 'com.github.prongbang:mvi-rx:1.0.2'
+implementation 'com.github.prongbang:mvi-rx:1.0.5'
 ```
 
 ## How to use
